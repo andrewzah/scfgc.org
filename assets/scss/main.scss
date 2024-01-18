@@ -1,0 +1,18 @@
+body {
+}
+
+#site-wrapper {
+  width: vw;
+  height: vh;
+
+  article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+#calendar-wrapper iframe {
+  width: 800;
+  height: 600;
+  border: solid 1px #777;
+}

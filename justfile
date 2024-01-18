@@ -1,0 +1,2 @@
+s:
+  hugo serve

@@ -1,0 +1,23 @@
+{{ partial "header.html" }}
+{{ partialCached "nav.html" . }}
+
+<body>
+  <div id="site-wrapper">
+    <article>
+      <h1> South Carolina FGC </h1>
+      <p> Homepage test. </p>
+
+      {{ partial "calendar.html" }}
+
+      <h2> Facebook Groups </h2>
+      <h2> Discords </h2>
+      {{ partial "discords.html" . }}
+
+      <h2> Tournament Organizers </h2>
+      <h2> Streamers </h2>
+
+      <h4> Website Administration </h4>
+      <p> If you need access to the calendar, or have issues regarding the site, please email Andrew at <a href="mailto:scfgc@andrewzah.com">scfgc@andrewzah.com</a>. </p>
+    </article>
+  </div>
+</body>

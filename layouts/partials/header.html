@@ -1,0 +1,10 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ if ne .Description "" }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink | absURL }}">
+{{ $styles := resources.Get "scss/main.scss" | toCSS (dict "outputStyle" "compressed") | minify }}
+  <style>{{ $styles.Content | safeCSS }}</style>
+
+  <title>South Carolina FGC</title>
+</head>

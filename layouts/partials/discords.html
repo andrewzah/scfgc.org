@@ -1,0 +1,12 @@
+<div>
+  <ul>
+    {{- range .Site.Data.socials.discords -}}
+      <li><a href="{{ .invite_url }}">
+          {{ .name }}
+          {{- if .tags -}}
+          &nbsp;- {{ delimit .tags "," }}
+          {{- end -}}
+      </a></li>
+    {{- end -}}
+  </ul>
+</div>

@@ -1,0 +1,22 @@
+{
+  "discords": [
+    {
+      "name": "SCFGC",
+      "invite_url": "https://discord.gg/5Y9SjQs"
+    },
+    {
+      "name": "SC Strive",
+      "invite_url": "https://discord.gg/eRhjsAERxG",
+      "tags": [ "ggst" ]
+    },
+    {
+      "name": "Columbia Melee Discord",
+      "invite_url": "https://discord.gg/WrfJyN9GVz",
+      "tags": [ "ssbm" ]
+    },
+    {
+      "name": "South Carolina Smash Bros.",
+      "invite_url": "https://discord.gg/7WXMskN"
+    }
+  ]
+}
